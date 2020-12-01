@@ -1,26 +1,26 @@
 # CookieFactory
 
-Title: Returns and exchanges go to inventory.
-Story
------
-As a store owner,
-I want to add items back to inventory when they are returned or exchanged,
-so that I can track inventory.
-Acceptance Criteria
---------------------
-Scenario 1: Items returned for refund should be added to inventory.
-Given that a customer previously bought a black sweater from me and I have three black sweaters in inventory,
-when they return the black sweater for a refund,
-then I should have four black sweaters in inventory.
-Scenario 2: Exchanged items should be returned to inventory.
-Given that a customer previously bought a blue garment from me and I have two blue garments in inventory and three black garments in inventory,
-when they exchange the blue garment for a black garment,
-then I should have three blue garments in inventory and two black garments in inventory.
-Stretch Goals
---------------
-- How can we automate the exchange or return process?
-Notes
------
-- We currently process returns by ...
-- We currently process exchanges by ...
+**As a** a member of [the development team](http://scrumguides.org/scrum-guide.html#team-dev),
+**I want** clear context and goals **so that** I can work efficiently.
+
+Scattering information in emails and other places makes it difficult to work collaboratively,
+so I need all the relevant information within the relevant issue.
+
 Priority: Medium
+
+### Acceptance Criteria
+
+1. I have clear Acceptance criteria [what a beautiful recursion].
+1. I have to understand the logic of the mockups, more than the pixels used, so that we can optimize the code.
+
+Please also note:
+
+1. If a conversation about the issue I’m working on is happening,
+the outcomes should be documented within that issue (not in the comments).
+
+
+### Resources:
+
+* [Style-guides and template for a user story](agile-user-story.md)
+* [“Advantages of the “As a user, I want” user story template.”](http://www.mountaingoatsoftware.com/blog/advantages-of-the-as-a-user-i-want-user-story-template)
+* [Scrum guide](http://scrumguides.org/scrum-guide.html)
